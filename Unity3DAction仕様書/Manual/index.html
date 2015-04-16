@@ -1,0 +1,537 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="Aoki,Atsushi,Smalltalk,Smalltalker,Program,Programmer,Object,Oriented,Programming">
+<meta name="description" content="プログラミング言語小テスト">
+<meta name="author" content="AOKI Atsushi">
+<link rev="made" href="index.html">
+<link rel="index" href="index.html">
+<style type="text/css">
+<!--
+body {
+  background-color : #ffffff;
+  margin : 20px;
+  padding : 10px;
+  font-family : serif;
+  font-size : 10pt;
+}
+a {
+  text-decoration : underline;
+  color : #000000;
+}
+a:link {
+  background-color : #ffddbb;
+}
+a:visited {
+  background-color : #ccffcc;
+}
+a:hover {
+  background-color : #dddddd;
+}
+a:active {
+  background-color : #dddddd;
+}
+div.belt {
+  background-color : #eeeeee;
+  padding : 0px 4px;
+}
+div.belt-yellow {
+  background-color : #ffffcc;
+  padding : 0px 4px;
+}
+div.belt-blue {
+  background-color : #ddeeff;
+  padding : 0px 4px;
+}
+div.right-small {
+  text-align : right;
+  font-size : 8pt;
+}
+img.border {
+  border-width : 1px;
+  border-color : #000000;
+  vertical-align : middle;
+}
+img.borderless {
+  border-width : 0px;
+  vertical-align : middle;
+}
+p.belt {
+  background-color : #ffeedd;
+  padding : 4px 8px;
+}
+p.belt-blue {
+  background-color : #ddeeff;
+  padding : 4px 8px;
+}
+pre.belt {
+  background-color : #ddeeff;
+  padding : 4px 8px;
+}
+pre.belt-yellow {
+  background-color : #ffffcc;
+  padding : 4px 8px;
+}
+table {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  font-family : serif;
+  font-size : 10pt;
+}
+table.profile {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  font-family : serif;
+  font-size : 10pt;
+  margin-top : 8px;
+  margin-left : 8px;
+  margin-right : 8px;
+  margin-bottom : 8px;
+}
+table.belt {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  background-color : #ffeedd;
+  padding : 0px 0px;
+  width : 100%;
+}
+table.content {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  padding : 2px 4px;
+}
+table.font-fixed {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  padding : 2px 4px;
+  font-family : monospace;
+}
+table.nest {
+  border-style : solid;
+  border-width : 0px;
+  border-color : #000000;
+  padding : 0px 0px;
+}
+td {
+  padding : 0px 0px;
+  vertical-align : middle;
+}
+td.center {
+  text-align : center;
+}
+td.center-half {
+  text-align : center;
+  width : 50%;
+  font-size : 8pt;
+}
+td.center-small {
+  text-align : center;
+  font-size : 8pt;
+  padding : 0px 4px;
+}
+td.center-small-nopadding {
+  text-align : center;
+  font-size : 8pt;
+  padding : 0px 0px;
+}
+td.center-white {
+  text-align : center;
+  background-color : #ffffff;
+}
+td.center-small-white {
+  text-align : center;
+  font-size : 8pt;
+  background-color : #ffffff;
+}
+td.center-border1 {
+  text-align : center;
+  vertical-align : middle;
+  empty-cells : show;
+  border-style : solid;
+  border-width : 1px;
+  border-color : #ffc080;
+  width : 22px;
+  height : 22px;
+}
+td.left-small {
+  text-align : left;
+  font-size : 8pt;
+  padding : 0px 4px;
+}
+td.left-small-white {
+  text-align : left;
+  font-size : 8pt;
+  padding : 0px 4px;
+  background-color : #ffffff;
+}
+td.right-small {
+  text-align : right;
+  font-size : 8pt;
+  padding : 0px 4px;
+}
+td.right-small-white {
+  text-align : right;
+  font-size : 8pt;
+  padding : 0px 4px;
+  background-color : #ffffff;
+}
+th {
+  padding : 0px 0px;
+  vertical-align : middle;
+}
+#menu {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  height: 32px;
+}
+#menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  clear: both;
+}
+#menu li {
+  margin: 0px 5px 0px 0px;
+  padding: 0px;
+  float: left;
+}
+#menu a {
+  display: block;
+  padding: 2px 4px;
+  text-decoration: none;
+  margin: 0px;
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #333333;
+  border: 1px solid #666666;
+}
+#menu a:hover {
+  display: block;
+  padding: 2px 4px;
+  border-bottom: 1px solid #000000;
+  text-decoration: none;
+  background: #FFCC66;
+}
+#menu .current {
+  background-color: #F45F57;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: 1px solid #333333;
+}
+-->
+</style>
+<title>プログラミング言語「総理大臣」マニュアル</title>
+</head>
+<body>
+<div id="menu">
+<ul>
+  <li><a href="../index.html">ホーム</a></li>
+  <li><a href="../Requirement/index.html">要求仕様書</a></li>
+  <li><a href="../DevelopmentPlan/index.html">開発計画書</a></li>
+  <li><a href="../BasicDesign/index.html">基本設計書</a></li>
+  <li><a href="../DetailDesign/index.html">詳細設計書</a></li>
+  <li><a href="../TestSpecification/index.html">テスト仕様書</a></li>
+  <li><a href="../TestResult/index.html">テスト結果</a></li>
+  <li><a href="../DevelopmentResult/index.html">開発実績</a></li>
+  <li><a href="../Program/index.html">プログラム</a></li>
+  <li><a href="../Manual/index.html" class="current">マニュアル</a></li>
+</ul>
+</div>
+<hr>
+<h2>プログラミング言語「総理大臣」マニュアル</h2>
+
+<div class="belt">
+<h3><a name="app">実行方法(実行ファイルの動かし方)</a></h3>
+</div>
+<ol>
+    <li><a href="PrimeMinistersByPython.zip">PrimeMinistersByPython.zip</a>のアーカイブファイルを適当な場所に展開する。
+    <pre class="belt">
+    $ unzip PrimeMinistersByPython.zip
+    Archive:  PrimeMinistersByPython.zip
+      creating: PrimeMinistersByPython/
+      inflating: PrimeMinistersByPython/.DS_Store
+      inflating: PrimeMinistersByPython/Makefile
+      inflating: PrimeMinistersByPython/MANIFEST
+      inflating: PrimeMinistersByPython/MANIFEST.in
+      creating: PrimeMinistersByPython/primeministers/
+      inflating: PrimeMinistersByPython/primeministers/.DS_Store
+      inflating: PrimeMinistersByPython/primeministers/__init__.py
+      inflating: PrimeMinistersByPython/primeministers/attributes.py
+      inflating: PrimeMinistersByPython/primeministers/downloader.py
+      inflating: PrimeMinistersByPython/primeministers/example.py
+      inflating: PrimeMinistersByPython/primeministers/io.py
+      inflating: PrimeMinistersByPython/primeministers/reader.py
+      inflating: PrimeMinistersByPython/primeministers/table.py
+      inflating: PrimeMinistersByPython/primeministers/translator.py
+      inflating: PrimeMinistersByPython/primeministers/tuple.py
+      inflating: PrimeMinistersByPython/primeministers/writer.py
+      creating: PrimeMinistersByPython/PrimeMinisters.app/
+      creating: PrimeMinistersByPython/PrimeMinisters.app/Contents/
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Info.plist
+      creating: PrimeMinistersByPython/PrimeMinisters.app/Contents/MacOS/
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/MacOS/applet
+      extracting: PrimeMinistersByPython/PrimeMinisters.app/Contents/PkgInfo
+      creating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/applet.icns
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/applet.rsrc
+      creating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/descriptiortfd/
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/descriptiTXT.rtf
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/JavaApp.icns
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/PrimeMinisteicns
+      creating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/Scripts/
+      inflating: PrimeMinistersByPython/PrimeMinisters.app/Contents/Resources/Scripts/maiscpt
+      inflating: PrimeMinistersByPython/PrimeMinisters.py
+      inflating: PrimeMinistersByPython/README.txt
+      inflating: PrimeMinistersByPython/setup.py
+    </pre></li>
+    <li><a href="PrimeMinistersByJava.zip">PrimeMinistersByJava.zip</a>アーカイブファイルを適当な場所に展開する。
+    <pre class="belt">
+    Archive:  PrimeMinistersByJava.zip
+       creating: PrimeMinistersByJava/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/Contents/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/Contents/MacOS/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/Scripts/
+       creating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/description.rtfd/
+       creating: PrimeMinistersByJava/primeministers/
+      inflating: PrimeMinistersByJava/Makefile
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Info.plist
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/MacOS/applet
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/PkgInfo
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/JavaApp.icns
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/Scripts/main.scpt
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/applet.icns
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/applet.rsrc
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/description.rtXT.rtf
+      inflating: PrimeMinistersByJava/PrimeMinisters.app/Icon
+      inflating: PrimeMinistersByJava/build.xml
+      inflating: PrimeMinistersByJava/primeministers.mf
+      inflating: PrimeMinistersByJava/primeministers/Attributes.java
+      inflating: PrimeMinistersByJava/primeministers/Downloader.java
+      inflating: PrimeMinistersByJava/primeministers/Example.java
+      inflating: PrimeMinistersByJava/primeministers/IO.java
+      inflating: PrimeMinistersByJava/primeministers/Reader.java
+      inflating: PrimeMinistersByJava/primeministers/Table.java
+      inflating: PrimeMinistersByJava/primeministers/Translator.java
+      inflating: PrimeMinistersByJava/primeministers/Tuple.java
+      inflating: PrimeMinistersByJava/primeministers/Writer.java
+    </pre></li>
+    <div class="belt">
+    <h3><a name="app">ここからPythonのマニュアル</a></h3>
+    </div>
+    <li>展開して得られるPrimeMinistersByPythonというディレクトリへ移る。
+    <pre class="belt">
+    $ cd PrimeMinistersByPythone
+    </pre></li>
+    <li>中身を確認する。
+    <pre class="belt">
+    $ ls *
+    MANIFEST    Makefile    README.txt
+    MANIFEST.in   PrimeMinisters.py se
+    PrimeMinisters.app:
+    Co
+    primeministers:
+    __init__.py downloader.py io.py   table.py  tuple.py
+    attributes.py example.py  reader.py translator.py writer.py
+    </pre></li>
+
+    <li>makeし、前準備をする。
+    <pre class="belt">
+    $ make
+    rm -rf ~/Desktop/PrimeMinisters
+    </pre></li>
+    <li>生成したPrimeMinisters.jarをアプリケーションapp）の中にインストールする。
+    <pre class="belt">
+    $ make install
+    if [ ! -e PrimeMinisters.app/Contents/Resources/Python/PrimeMinisters.app/ConteResourPython/ ; fi
+    cp -p -r PrimeMinisters.py primeministers PrimeMinisteResources/Python/
+    </pre></li>
+    <div class="belt">
+    <h3><a name="app">ここからJavaのマニュアル</a></h3>
+    </div>
+    <li>展開して得られるPrimeMinistersByJavaというディレクトリへ移る。
+    <pre class="belt">
+    $ cd PrimeMinistersByJava
+    </pre></li>
+    <li>中身を確認する。
+    <pre class="belt">
+    $ ls *
+    Makefile    build.xml   primeministers.mf
+
+    PrimeMinisters.app:
+    Contents  Icon
+
+    primeministers:
+    Attributes.java Example.java  Reader.java Translator.java Writer.java
+    Downloader.java IO.java   Table.java  Tuple.java
+    </pre></li>
+    <li>makeする。
+    <pre class="belt">
+    $ make
+    env LC_ALL=en ant all
+    Picked up _JAVA_OPTIONS: -Dfile.encoding=UTF-8
+    Buildfile: /Users/yuto/Desktop/PrimeMinistersByJava/build.xml
+
+    prepare:
+        [mkdir] Created dir: /Users/yuto/Desktop/PrimeMinistersByJava/Classes
+         [echo] on 2014/12/25 at 11:42:48
+
+    compile:
+        [javac] Compiling 9 source files to /Users/yuto/Desktop/PrimeMinistersByJava/Classes
+         [echo] on 2014/12/25 at 11:42:48
+
+    jar:
+          [jar] Building jar: /Users/yuto/Desktop/PrimeMinistersByJava/primeministers.jar
+         [echo] on 2014/12/25 at 11:42:48
+
+    all:
+         [echo] on 2014/12/25 at 11:42:48
+
+    BUILD SUCCESSFUL
+    Total time: 3 seconds
+    </pre></li>
+    <li>PrimeMinister.jarが生成されていることを確かめる。
+    <pre class="belt">
+    $ ls *
+    Makefile    primeministers.jar
+    build.xml   primeministers.mf
+
+    Classes:
+    primeministers
+
+    PrimeMinisters.app:
+    Contents  Icon
+
+    primeministers:
+    Attributes.java Example.java  Reader.java Translator.java Writer.java
+    Downloader.java IO.java   Table.java  Tuple.java
+    </pre></li>
+    <li>生成したPrimeMinister.jarをアプリケーション（PrimeMinister.app）の中にインストールする。
+    <pre class="belt">
+    $ make install
+    env LC_ALL=en ant install
+    Picked up _JAVA_OPTIONS: -Dfile.encoding=UTF-8
+    Buildfile: /Users/yuto/Desktop/PrimeMinistersByJava/build.xml
+
+    prepare:
+         [echo] on 2014/12/25 at 11:47:04
+
+    compile:
+         [echo] on 2014/12/25 at 11:47:04
+
+    jar:
+         [echo] on 2014/12/25 at 11:47:04
+
+    all:
+         [echo] on 2014/12/25 at 11:47:04
+
+    install:
+         [copy] Copying 1 file to /Users/yuto/Desktop/PrimeMinistersByJava/PrimeMinisters.app/Contents/Resources/Java
+         [echo] on 2014/12/25 at 11:47:04
+
+    BUILD SUCCESSFUL
+    Total time: 0 seconds
+    </pre></li>
+  </ol>
+<div class="belt">
+<h3><a name="app">実行方法(実行ファイルの動かし方)</a></h3>
+</div>
+<ol>
+  <p>実行するためのコマンドは以下の通りである。</p>
+  <p>Java version</p>
+  <blockquote>
+    <code>java -jar primeministers.jar</code>
+  </blockquote>
+  <p>Python version</p>
+  <blockquote>
+    <code>make test</code>
+  </blockquote>
+  <p>MAC OX Xの場合には、アプリケーションForest.appをダブルクリックする方が簡便である。</p>
+  <blockquote>PrimeMinisters.app<img class="borderless" src="img/app.png" width="128" height="128" alt="applet.icon"></blockquote>
+  <p>また、openコマンドでPrimeMinisters.appを開いても実行可能である。</p>
+  <blockquote>
+    <code>$ open PrimeMinisters.app</code>
+  </blockquote>
+  <p>PrimeMinisters.appの実行例を以下に示す。</p>
+  <blockquote>
+      <table class="belt" summary="table">
+          <tbody>
+              <tr>
+                  <td>
+                      <table class="content" summary="table">
+                          <tbody>
+                              <tr>
+                                <p>Pythonの場合、自動的にWebページが開くようになっています。</p>
+                                  <td class="center-small"><a href="img/html.png"><img class="borderless" src="img/html.png" width="620" height="450" alt="Snapshot0"></a></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      <table class="belt" summary="table">
+          <tbody>
+              <tr>
+                  <td>
+                      <table class="content" summary="table">
+                          <tbody>
+                              <tr>
+                                <p>Javaの場合だと、このような表示が出ます。</p>
+                                  <td class="center-small"><a href="img/popup.png"><img class="borderless" src="img/popup.png" width="300" height="80" alt="Snapshot1"></a></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      <table class="belt" summary="table">
+          <tbody>
+              <tr>
+                  <td>
+                      <table class="content" summary="table">
+                          <tbody>
+                              <tr>
+                                <p>少々手間ですが、OKを選択し、</p>
+                                <p>Desktop下にこのようなディレクトリがあります。</p>
+                                  <td class="center-small"><a href="img/directory.png"><img class="borderless" src="img/directory.png" width="500" height="320" alt="Snapshot1"></a></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      <table class="belt" summary="table">
+          <tbody>
+              <tr>
+                  <td>
+                      <table class="content" summary="table">
+                          <tbody>
+                              <tr>
+                                <p>index.htmlをWebブラウザで開くと、上記と同じようなWebページが表示されます。</p>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </blockquote>
+</ol>
+
+<hr>
+<div class="right-small">Copyright 2014 Project Forest, Updated: 2014/08/08(Created: 2009/11/11)</div>
+</body>
+</html>

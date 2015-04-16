@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="3dActionGame Gantt Project" company="" webLink="http://" view-date="2015-03-01" view-index="0" gantt-divider-location="396" resource-divider-location="300" version="2.0" locale="ja_JP">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="名前" width="54" order="0"/>
+        <field id="tpd4" name="開始日" width="22" order="1"/>
+        <field id="tpd5" name="終了日" width="22" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名前" width="52" order="0"/>
+        <field id="1" name="役割" width="47" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="要求分析" meeting="false" start="2015-03-04" duration="4" complete="0" expand="true">
+            <task id="1" name="開発計画の立案" meeting="false" start="2015-03-04" duration="1" complete="0" expand="true"/>
+            <task id="2" name="要求仕様書作成" meeting="false" start="2015-03-04" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="6" name="設計" meeting="false" start="2015-03-08" duration="15" complete="0" expand="true">
+            <task id="8" name="基本設計" meeting="false" start="2015-03-08" duration="7" complete="0" expand="true"/>
+            <task id="7" name="詳細設計" meeting="false" start="2015-03-15" duration="8" complete="0" expand="true"/>
+        </task>
+        <task id="9" name="実装" meeting="false" start="2015-03-23" duration="66" complete="0" expand="true">
+            <task id="18" name="ベース（基板）" meeting="false" start="2015-03-23" duration="38" complete="0" expand="true">
+                <task id="10" name="ワールド" meeting="false" start="2015-03-23" duration="38" complete="0" expand="true"/>
+                <task id="11" name="キャラクターの動き" meeting="false" start="2015-03-23" duration="38" complete="0" expand="true"/>
+                <task id="12" name="カメラ" meeting="false" start="2015-03-23" duration="38" complete="0" expand="true"/>
+                <task id="13" name="照明" meeting="false" start="2015-03-23" duration="38" complete="0" expand="true"/>
+            </task>
+            <task id="17" name="デベロップ（発展）" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true">
+                <task id="20" name="ワールド" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true"/>
+                <task id="26" name="キャラクターの動き" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true"/>
+                <task id="24" name="カメラ" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true"/>
+                <task id="22" name="照明" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true"/>
+                <task id="16" name="バランス調整" meeting="false" start="2015-05-01" duration="27" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="29" name="テスト仕様書" meeting="false" start="2015-05-28" duration="4" complete="0" expand="true"/>
+        <task id="14" name="テスト" meeting="false" start="2015-06-01" duration="7" complete="0" expand="true">
+            <task id="28" name="テスト結果" meeting="false" start="2015-06-01" duration="7" complete="0" expand="true"/>
+            <task id="31" name="実績報告書" meeting="false" start="2015-06-01" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="32" name="運用・保守" meeting="false" start="2015-06-08" duration="7" complete="0" expand="true">
+            <task id="33" name="公表形式（Web）に対応" meeting="false" start="2015-06-08" duration="7" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="213" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="89" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="88" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

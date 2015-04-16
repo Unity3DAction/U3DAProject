@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0052)http://localhost:9999/primeministers.downloader.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Python: module primeministers.downloader</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="heading">
+<tbody><tr bgcolor="#7799ee">
+<td valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="../index.html"><font color="#ffffff">primeministers</font></a>.downloader</strong></big></big></font></td><td align="right" valign="bottom"><font color="#ffffff" face="helvetica, arial"><a href="http://localhost:9999/">index</a><br><a href="file:///Users/yuto/Desktop/workspace/PMWorkSpace/PrimeMinisters/PrimeMinistersByPython/primeministers/downloader.py">/Users/yuto/Desktop/workspace/PMWorkSpace/PrimeMinisters/PrimeMinistersByPython/primeministers/downloader.py</a></font></td></tr></tbody></table>
+    <p><tt>#&nbsp;-*-&nbsp;coding:&nbsp;utf-8&nbsp;-*-</tt></p>
+<p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#aa55cc">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tbody><tr><td width="25%" valign="top"><a href="./io.html">primeministers.io</a><br>
+<a href="http://localhost:9999/os.html">os</a><br>
+</td><td width="25%" valign="top"><a href="./reader.html">primeministers.reader</a><br>
+<a href="http://localhost:9999/shutil.html">shutil</a><br>
+</td><td width="25%" valign="top"><a href="http://localhost:9999/urllib.html">urllib</a><br>
+</td><td width="25%" valign="top"></td></tr></tbody></table></td></tr></tbody></table></p><p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#ee77aa">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="./io.html#IO">primeministers.io.IO</a>(<a href="http://localhost:9999/__builtin__.html#object">__builtin__.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="./downloader.html#Downloader">Downloader</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#ffc8d8">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Downloader">class <strong>Downloader</strong></a>(<a href="./io.html#IO">primeministers.io.IO</a>)</font></td></tr>
+
+<tr bgcolor="#ffc8d8"><td rowspan="2"><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan="2"><tt>ダウンローダ：総理大臣のCSVファイル・画像ファイル・サムネイル画像ファイルをダウンロードする。<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="./downloader.html#Downloader">Downloader</a></dd>
+<dd><a href="./io.html#IO">primeministers.io.IO</a></dd>
+<dd><a href="http://localhost:9999/__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Downloader-__init__"><strong>__init__</strong></a>(self, base_directory)</dt><dd><tt>ダウンローダのコンストラクタ。</tt></dd></dl>
+
+<dl><dt><a name="Downloader-download_all"><strong>download_all</strong></a>(self)</dt><dd><tt>すべて（総理大臣の情報を記したCSVファイル・画像ファイル群・縮小画像ファイル群）をダウンロードし、テーブルを応答する。</tt></dd></dl>
+
+<dl><dt><a name="Downloader-download_csv"><strong>download_csv</strong></a>(self)</dt><dd><tt>総理大臣の情報を記したCSVファイルをダウンロードする。</tt></dd></dl>
+
+<dl><dt><a name="Downloader-download_images"><strong>download_images</strong></a>(self, image_filenames)</dt><dd><tt>画像ファイル群または縮小画像ファイル群をダウンロードする。</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="./io.html#IO">primeministers.io.IO</a>:<br>
+<dl><dt><a name="Downloader-read_csv"><strong>read_csv</strong></a>(self, filename)</dt><dd><tt>指定されたファイルをCSVとして読み込む。</tt></dd></dl>
+
+<dl><dt><a name="Downloader-write_csv"><strong>write_csv</strong></a>(self, filename, rows)</dt><dd><tt>指定されたファイルにCSVとして行たち(rows)を書き出す。</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="./io.html#IO">primeministers.io.IO</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></tbody></table></p></td></tr></tbody></table>
+</p></body></html>
