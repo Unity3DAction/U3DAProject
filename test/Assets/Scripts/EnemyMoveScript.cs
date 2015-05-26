@@ -14,6 +14,7 @@ public class EnemyMoveScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 		Vector3 playerPosition = player.position;
 		Vector3 direction = playerPosition - transform.position;//方向
 		direction = direction.normalized;//単位方向
