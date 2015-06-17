@@ -6,7 +6,6 @@ var attackRange = 3;
 var moveSpeed = 5.0;
 var Damping = 6.0;
 
-
 function Update () 
 {
 	Distance = Vector3.Distance(Target.position, transform.position);
@@ -38,5 +37,6 @@ function chase ()
 
 function attack() 
 {
-		
+	var camera = Target.FindChild("Main Camera").gameObject;
+	camera.SendMessage("changeGameOver", SendMessageOptions.DontRequireReceiver);
 }
