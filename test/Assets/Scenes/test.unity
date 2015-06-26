@@ -13,7 +13,7 @@ SceneSettings:
 --- !u!104 &2
 RenderSettings:
   m_Fog: 1
-  m_FogColor: {r: .0334150195, g: .176157132, b: .298507452, a: 1}
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
   m_FogDensity: .0299999993
   m_LinearFogStart: 0
@@ -9815,7 +9815,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 540455e7b1e7e451ea95a266fbd949c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -.189999998
+      value: -.190000057
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 540455e7b1e7e451ea95a266fbd949c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14339,7 +14339,7 @@ Light:
   serializedVersion: 3
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.89999998
   m_Range: 30
   m_SpotAngle: 55
   m_CookieSize: 10
@@ -14350,7 +14350,7 @@ Light:
     m_Bias: .0500000007
     m_Softness: 4
     m_SoftnessFade: 1
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 5b12e61142d5d4bf4a5b219ce70652d3, type: 3}
   m_DrawHalo: 0
   m_ActuallyLightmapped: 0
   m_Flare: {fileID: 0}
@@ -31167,7 +31167,7 @@ Transform:
   m_PrefabInternal: {fileID: 190966770}
   m_GameObject: {fileID: 648702869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .286000013, y: -.189999998, z: .324000001}
+  m_LocalPosition: {x: .286000013, y: -.190000057, z: .324000001}
   m_LocalScale: {x: .0512145869, y: .0512145795, z: .191686243}
   m_Children:
   - {fileID: 323522903}
@@ -60122,6 +60122,8 @@ GameObject:
   - 114: {fileID: 1164949992}
   - 114: {fileID: 1164949996}
   - 114: {fileID: 1164949997}
+  - 114: {fileID: 1164949998}
+  - 114: {fileID: 1164949999}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Untagged
@@ -60223,8 +60225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 1
-  sensitivityX: 15
+  axes: 0
+  sensitivityX: 5
   sensitivityY: 0
   minimumX: -360
   maximumX: 360
@@ -60269,6 +60271,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectingCoins: 0
   collectSound: {fileID: 8300000, guid: 27b4480add6dd43f6b5842c32d45da8b, type: 3}
+--- !u!114 &1164949998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1164949990}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da07ed8dcffb049dea00e8f4dc833c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 7
+  crouchSpeed: 3
+  sprintSpeed: 13
+  charMotor: {fileID: 0}
+  charController: {fileID: 0}
+  theTransform: {fileID: 0}
+  charHeight: 0
+--- !u!114 &1164949999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1164949990}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66df3e3c50644924a5d3abb3dec4c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1167054164
 Prefab:
   m_ObjectHideFlags: 0
@@ -63077,7 +63108,7 @@ MonoBehaviour:
     m_Name: 
     m_Normal:
       m_Background: {fileID: 0}
-      m_TextColor: {r: .588235259, g: 0, b: 0, a: 1}
+      m_TextColor: {r: .639705896, g: .0899146348, b: .0705557913, a: 1}
     m_Hover:
       m_Background: {fileID: 0}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
@@ -63794,6 +63825,18 @@ Prefab:
     - target: {fileID: 100004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: axes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: sensitivityX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: sensitivityY
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
@@ -112468,6 +112511,7 @@ GameObject:
   - 114: {fileID: 2145801092}
   - 136: {fileID: 2145801093}
   - 54: {fileID: 2145801094}
+  - 114: {fileID: 2145801095}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -112494,15 +112538,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2145801090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74a6f5e1d42074c62a72e19f844d968e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1164949991}
+  Target: {fileID: 0}
   chaseRange: 15
   attackRange: 3
-  moveSpeed: 3
+  moveSpeed: 5
   Damping: 6
 --- !u!136 &2145801093
 CapsuleCollider:
@@ -112530,5 +112574,22 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
+--- !u!114 &2145801095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145801090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa70aacfb80834175ae522e5178c694c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Distance: 0
+  Target: {fileID: 1164949991}
+  chaseRange: 15
+  attackRange: 3
+  moveSpeed: 3
+  Damping: 15
