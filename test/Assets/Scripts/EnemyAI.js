@@ -14,12 +14,12 @@ function Update ()
 	
 	if (Distance < attackRange) 
 	{
-		Debug.Log("change in GAME OVER State");
+//		Debug.Log("change in GAME OVER State");
 		attack();
 	}
 	else if (Distance < chaseRange)
 	{
-		Debug.Log("Chase!!");
+//		Debug.Log("Chase!!");
 		chase();
 	}
 }
