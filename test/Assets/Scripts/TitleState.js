@@ -17,7 +17,6 @@ function OnGUI ()
 		 
 	if(aButton)
 	{
-		Debug.Log("Title Button Pushed!!");
 		Application.LoadLevel("test");
 	}
 	
