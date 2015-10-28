@@ -1,9 +1,12 @@
-﻿var style: GUIStyle;
+﻿//GUIのスタイル
+var style: GUIStyle;
 
+//ボタンサイズ
 var buttonWidth : int;
 var buttonHeight : int;
 
-// GUIでゲーム上で文列を表示
+//GUIでゲーム上で文列、ゲームスタートボタンを表示
+//配置のズレが起きるので、uGUIを入れる必要がある。
 function OnGUI () 
 {
 	var buttonRect = Rect(

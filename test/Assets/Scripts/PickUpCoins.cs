@@ -6,11 +6,11 @@ public class PickUpCoins : MonoBehaviour {
 	private int collectingCoins = 0;
 	public AudioClip collectingSound;
 
-	private SpawnCoins aSpawnCoins;
+	//private SpawnCoins aSpawnCoins;
 
 	void Start()
 	{
-		aSpawnCoins = gameObject.GetComponent<SpawnCoins>();
+		// aSpawnCoins = gameObject.GetComponent<SpawnCoins>();
 	}
 	// Use this for initialization
 	void OnTriggerEnter (Collider other) 
@@ -27,7 +27,7 @@ public class PickUpCoins : MonoBehaviour {
 	// Update is called once per frame
 	void OnGUI () 
 	{
-		GUILayout.Label("Coin : " + collectingCoins);
+		GUILayout.Label(" Coin : " + collectingCoins);
 	}
 
 	public int getCollectingCoins()

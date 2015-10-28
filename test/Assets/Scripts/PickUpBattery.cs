@@ -43,7 +43,7 @@ public class PickUpBattery : MonoBehaviour
 		if(inBatteryRange)
 		{
 			GUI.skin = guiSkin;
-			GUI.Label(new Rect(Screen.width/2-50,Screen.height/2-55,120,50), "Pick up batteries");
+			GUI.Label(new Rect(Screen.width/2-50,Screen.height/2-60,150,50), "[E]キーでバッテリー拾う");
 		}
 		else
 		{

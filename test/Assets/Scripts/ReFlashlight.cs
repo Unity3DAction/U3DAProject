@@ -25,7 +25,7 @@ public class ReFlashlight : MonoBehaviour
 
 	public void AlterEnergy(float amount)
 	{
-		batteryLife = Mathf.Clamp(batteryLife + batteryPower, 0, 100);
+		batteryLife = Mathf.Clamp(batteryLife + batteryPower, 0, 7.5f);
 	}
 	// Update is called once per frame
 	void Update () 

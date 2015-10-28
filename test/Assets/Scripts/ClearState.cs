@@ -1,40 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ClearState : MonoBehaviour {
-
-	public GameObject parentObject;
-	private PickUpCoins aCoinCollecting;
-	private bool onClearGame = false;
-
+//ゲームクリア状態の処理を行うクラス
+public class ClearState : MonoBehaviour 
+{
+	//プレイヤーのゲームオブジェクト
+	public GameObject player;
+	//ゲームの状態を保持
+	private GameState aGameState;
+	//キャンパスオブジェクトを保持
 	private GameObject canvasObject;
 
-	// Use this for initialization
+
+	//GameStateクラスを保持、キャンバスobjを探し保持
 	void Start () 
 	{
-		parentObject = gameObject.transform.parent.gameObject;
+		player = gameObject.transform.parent.gameObject;
+		aGameState = player.GetComponent<GameState>();
 		if(canvasObject == null)
 		{
 			canvasObject = GameObject.Find("Canvas");
 		}
 	}
 	
-	// Update is called once per frame
+	
+	// 集めたコインがクリア判定に超えてるかを判定し、
+	// 超えていたらクリア状態にする。
 	void Update () 
 	{
-		// Debug.Log(parentObject);
-		int collectingCoins = parentObject.GetComponent<PickUpCoins>().getCollectingCoins();
+		int collectingCoins = player.GetComponent<PickUpCoins>().getCollectingCoins();
 		if(collectingCoins >= 8)
 		{
-			onClearGame = true;
+			aGameState.setOnClearGame(true);
 		}
+
 		ConvertCanvasActibity();
-		// Debug.Log("CLEAR !!!!");
 	}
 
+	//クリア状態ならキャンパスをアクティブに、そうでなければ非アクティブに
 	private void ConvertCanvasActibity()
 	{
-		if(onClearGame)
+		if(aGameState.getOnClearGame())
 		{
 			canvasObject.SetActive(true);
 		}
