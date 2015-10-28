@@ -17,7 +17,7 @@ function OnGUI ()
 			Screen.width / 2 - (labelWidth / 2),
 			(2 * Screen.height / 3) - (labelHeight / 2),
          	 labelWidth,
-         	 labelHeight ); 			  
+         	 labelHeight );
 		GUI.Label(labelRect,
 			/*Rect(Screen.width * 0.5 - 51,200,102,22)*/
 			"Game Over", style);

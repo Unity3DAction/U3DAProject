@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "Assets",
+			"name": "Assets",
+			"file_include_patterns":
+			[
+				"*.cs",
+				"*.js"
+			]
+		}
+	],
+	"solution_file" : "./test-csharp.sln"
+}

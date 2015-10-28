@@ -1,0 +1,1375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"GUIS",
+				"GUIStyle	*()"
+			],
+			[
+				"Wait",
+				"WaitForSeconds	*(seconds)"
+			],
+			[
+				"PlayOne",
+				"PlayOneShot	AudioSource.*(clip, volumeScale)"
+			],
+			[
+				"GetKey",
+				"GetKeyDown	Input.*(key)"
+			],
+			[
+				"OnT",
+				"OnTriggerExit	Collider.*(?)"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"Attac",
+				"AttackDamage"
+			],
+			[
+				"chase",
+				"chaseRange〔variable〕"
+			],
+			[
+				"attack",
+				"attackTime"
+			],
+			[
+				"Debu",
+				"Debug.Log	*(message)"
+			],
+			[
+				"contro",
+				"controllers〔variable〕"
+			],
+			[
+				"move",
+				"moveDirection〔variable〕"
+			],
+			[
+				"movedire",
+				"moveDirection〔variable〕"
+			],
+			[
+				"moveDi",
+				"moveDirection	[class]"
+			],
+			[
+				"Character",
+				"CharacterController	[class]"
+			],
+			[
+				"gameObject",
+				"gameObject	[class]"
+			],
+			[
+				"Destr",
+				"Destroy	Object.*(obj, t)"
+			],
+			[
+				"DontRe",
+				"DontRequireReceiver	SendMessageOptions.*"
+			],
+			[
+				"SendMess",
+				"SendMessageOptions	[class]"
+			],
+			[
+				"trans",
+				"transform	RaycastHit.*"
+			],
+			[
+				"Raycast",
+				"Raycast	Physics.*(origin, direction, maxDistance, layerMask)"
+			],
+			[
+				"GetMouse",
+				"GetMouseButtonDown	Input.*(button)"
+			],
+			[
+				"height",
+				"height	Screen.*"
+			],
+			[
+				"width",
+				"width	Screen.*"
+			],
+			[
+				"Vec",
+				"Vector3	*(x, y)"
+			],
+			[
+				"Rayca",
+				"RaycastHit	[class]"
+			],
+			[
+				"debu",
+				"debug.Log	*(message)"
+			],
+			[
+				"Weap",
+				"Weapons"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"log",
+				"log	Debug.*(message)"
+			],
+			[
+				"other",
+				"other〔argument〕"
+			],
+			[
+				"Colli",
+				"Collider	[class]"
+			],
+			[
+				"OnTri",
+				"OnTriggerEnter	Collider.*(?)"
+			],
+			[
+				"deltaT",
+				"deltaTime"
+			],
+			[
+				"forward",
+				"forward	Vector3.*"
+			],
+			[
+				"Distan",
+				"Distance"
+			],
+			[
+				"mate",
+				"materials	Renderer.*"
+			],
+			[
+				"trasform",
+				"transform	[class]"
+			],
+			[
+				"tran",
+				"transform	[class]"
+			],
+			[
+				"Look",
+				"LookRotation	Quaternion.*(forward, upwards)"
+			],
+			[
+				"materi",
+				"material	[class]"
+			],
+			[
+				"look",
+				"lookAtDistance〔variable〕"
+			],
+			[
+				"tar",
+				"target	Editor.*"
+			],
+			[
+				"distance",
+				"distance	Vector3.*(a, b)"
+			],
+			[
+				"dista",
+				"distance	Vector4.*(a, b)"
+			],
+			[
+				"dis",
+				"dispose	WWW.*()"
+			],
+			[
+				"D",
+				"Distance"
+			],
+			[
+				"W",
+				"Weapon01"
+			],
+			[
+				"Weapo",
+				"weapon01"
+			],
+			[
+				"Wea",
+				"weapon01"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"play",
+				"playerPosition"
+			],
+			[
+				"player",
+				"playerPosition"
+			],
+			[
+				"Transform",
+				"transform"
+			],
+			[
+				"def",
+				"defs	Method"
+			],
+			[
+				"python",
+				"python	keyword"
+			],
+			[
+				"dir",
+				"dir"
+			],
+			[
+				"my",
+				"myUnitList"
+			],
+			[
+				"opp",
+				"oppUnits"
+			],
+			[
+				"unit",
+				"unitList"
+			],
+			[
+				"ST",
+				"STRING"
+			],
+			[
+				"I",
+				"INTEGER"
+			],
+			[
+				"In",
+				"Integer"
+			],
+			[
+				"Wquo",
+				"WQUOTED"
+			],
+			[
+				"AT",
+				"ATMARK"
+			],
+			[
+				"P",
+				"PERIOD"
+			],
+			[
+				"Statement",
+				"Statement"
+			],
+			[
+				"number",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"gameover",
+				"gameoverWindow"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"is",
+				"isRotating"
+			],
+			[
+				"d",
+				"do	Do While Loop"
+			],
+			[
+				"simple",
+				"simplexml_load_string"
+			],
+			[
+				"pro",
+				"property	property"
+			],
+			[
+				"defa",
+				"default_window_title"
+			],
+			[
+				"display",
+				"display_axes"
+			],
+			[
+				"_disp",
+				"_display_object"
+			],
+			[
+				"None",
+				"None	keyword"
+			],
+			[
+				"enemy",
+				"enemyType"
+			],
+			[
+				"time",
+				"RuntimeError	error"
+			],
+			[
+				"a",
+				"and	keyword"
+			],
+			[
+				"sys",
+				"SystemError	error"
+			],
+			[
+				"os",
+				"OSError	error"
+			],
+			[
+				"can",
+				"canRotate"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"WI",
+				"WINDOW_SIZE_Y"
+			],
+			[
+				"isen",
+				"isEnemyShot"
+			],
+			[
+				"en",
+				"enemyPositionX"
+			],
+			[
+				"enemyshot",
+				"enemyShotScaleX"
+			],
+			[
+				"enem",
+				"enemyPositionY"
+			],
+			[
+				"all",
+				"allCollision"
+			],
+			[
+				"Ma",
+				"MAX_NUMBER_OF_ENEMY"
+			],
+			[
+				"pla",
+				"playerScaleX"
+			],
+			[
+				"enemysho",
+				"enemyShotPositionX"
+			],
+			[
+				"Player",
+				"PLAYER"
+			],
+			[
+				"att",
+				"attackedType"
+			],
+			[
+				"ENEMY",
+				"ENEMY_SHOT"
+			],
+			[
+				"PL",
+				"PLAYER"
+			],
+			[
+				"num",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"enemyShot",
+				"enemyShotPositionX"
+			],
+			[
+				"enemysh",
+				"enemyShotScaleX"
+			],
+			[
+				"enemys",
+				"enemyShotScaleX"
+			],
+			[
+				"enemyshots",
+				"enemyShotScaleX"
+			],
+			[
+				"enemySca",
+				"enemyScaleX"
+			],
+			[
+				"enemyPo",
+				"enemyPositionY"
+			],
+			[
+				"shot",
+				"enemyShotPositionX"
+			],
+			[
+				"isE",
+				"isEnemyShot"
+			],
+			[
+				"N",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"enemyso",
+				"enemyShotPositionX"
+			],
+			[
+				"NUMBER_OF_EN",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"NUMBER_OF_E",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"NUMBER_OF_",
+				"NUMBER_OF_ENEMY_SHOT"
+			],
+			[
+				"pl",
+				"playerOriginY"
+			],
+			[
+				"playerOr",
+				"playerOriginY"
+			],
+			[
+				"playerS",
+				"playerScaleX"
+			],
+			[
+				"playerO",
+				"playerOriginX"
+			],
+			[
+				"plyer",
+				"playerScaleX"
+			],
+			[
+				"isDe",
+				"isDestroy"
+			],
+			[
+				"sho",
+				"shotPositionX"
+			],
+			[
+				"nu",
+				"NUMBER_OF_SHOT"
+			],
+			[
+				"attt",
+				"attakingType"
+			],
+			[
+				"destry",
+				"destroyEnemy"
+			],
+			[
+				"des",
+				"destroyEnemy"
+			],
+			[
+				"v",
+				"VIOLET_RECTANGLE"
+			],
+			[
+				"g",
+				"GREEN_RHOMBUS"
+			],
+			[
+				"ene",
+				"enemyScaleX"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nOmniSharp:\n---------\n\n  Welcome to OmniSharpSublime!\n  \n  You can now edit C#, build your projects, run your tests, get intellisense, refactor like a pro, be shown syntax errors and lots more!\n  \n  For more information see the README and Wiki here: https://github.com/OmniSharp/omnisharp-sublime\n  \n  \n  ",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "test/U3DA.sublime-project",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"able",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control",
+				"Package Control: Disable Package"
+			],
+			[
+				"preferences",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"d",
+				"DataConverter: to PHP 5.4"
+			],
+			[
+				"data",
+				"DataConverter: to Python dict"
+			],
+			[
+				"LIST",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: self"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"fin",
+				"File: New View into File"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"local",
+				"Local History: Open"
+			],
+			[
+				"hi",
+				"Local History: Browse"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack lis",
+				"Package Control: List Packages"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"about",
+				"About"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 312.0,
+		"history":
+		[
+			"view.run_command('prefixr')",
+			"view.run_command('example')",
+			"b = re.compile(\"My Name is %s\", % value)",
+			"b = re.compile(\"My Name is \\s\", value)",
+			"import re",
+			"a",
+			"a = \"My Name is {0}.\".format(value)",
+			"value = \"Yuto\"",
+			"rows",
+			"rows.append(\"<td class=\\\"center-pinc\\\"><strong>\"+column+\"</strong></td>\")",
+			"list",
+			"column = \"人目\"",
+			"column =　人目",
+			"rows = []",
+			"for row in input_table: \\n",
+			"for row in input_table: /n",
+			"for row in input_table:",
+			"for row in input_table: print \"aaa\" pass",
+			"for row in input_table: print \"aaa\"",
+			"input_table",
+			"for row in input_table: rownum += 1",
+			"rownum",
+			"rownum = 0",
+			"rownum",
+			"rownum += 1",
+			"rownum ++",
+			"for row in input_table: rownum += 1",
+			"for row in input_table: rownum++",
+			"for row in input_table:",
+			"rownum = 0",
+			"input_table = [\" \",\" \",\" \",\" \",\" \",\" \"]",
+			"self._input_table = [\" \",\" \",\" \",\" \",\" \",\" \"]",
+			"p",
+			"print p",
+			"p = re.compile('ab*')",
+			"import re",
+			"c.days",
+			"b.days()",
+			"b",
+			"datetime.date.today()",
+			"print c.days()",
+			"str(c.days())",
+			"c.days()",
+			"c = b - a",
+			"c.days()",
+			"c = a-b",
+			"b = datetime.date(1972,7,7)",
+			"a = datetime.date(1964,11,9)",
+			"import datetime",
+			"x",
+			"x = \"aaa\"",
+			"x = aaa",
+			"1.23",
+			"qqq",
+			"あああ",
+			"1.32",
+			"aaa",
+			"import urllib2,os;",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation';",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib2,os;",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yuto/Desktop/workspace/U3DAProject/untitled.sublime-project",
+		"/Users/yuto/Desktop/244163.txt",
+		"/Users/yuto/Sites/ProjectTeamX/facehook_comp/search_main.php",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Untitled/robot01/robot01.vhd",
+		"/Volumes/Untitled/robot01/pin.ucf",
+		"/Users/yuto/Desktop/aaa.txt",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.py",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Terminal/readme.creole",
+		"/Users/yuto/Downloads/12_CODEPAC.vhd",
+		"/Users/yuto/Downloads/10_BPAC.vhd",
+		"/Users/yuto/Desktop/09_SRAM.vhd",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Terminal/PS.bat",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sh",
+		"/Users/yuto/Downloads/11_PEAKDETECT.vhd",
+		"/Users/yuto/Desktop/tharbomoter/top.vhd",
+		"/Users/yuto/Desktop/tharbomoter/pin.ucf",
+		"/Users/yuto/Desktop/workspace/U3DAProject/test/Assets/Scripts/EnemyMoveScript.cs",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/DoorLogic.js",
+		"/Users/yuto/Desktop/workspace/U3DAProject/test/Assets/Scripts/EnemyAI.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/AISimple.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/AdvancedAI.js",
+		"/Users/yuto/Desktop/workspace/U3DAProject/test/Assets/GameOverState.js",
+		"/Users/yuto/Desktop/workspace/U3DAProject/test/Assets/GameOverState.cs",
+		"/Volumes/Untitled/tharbomoter/top.vhd",
+		"/Volumes/Untitled/tharbomoter/pin.ucf",
+		"/Users/yuto/Desktop/Debouncer/Debouncer.vhd",
+		"/Users/yuto/Desktop/Debouncer/tb.vhd",
+		"/Volumes/Untitled/Debouncer/Debouncer.vhd",
+		"/Volumes/Untitled/Debouncer/tb.vhd",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/PlayerStats.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/Player.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/DoorLogic.js",
+		"/Users/yuto/Documents/schoole_folder/4thSpringTerm/ImageProcessing/ColorSystem.txt",
+		"/Users/yuto/Documents/schoole_folder/4thSpringTerm/ImageProcessing/244163.txt",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/SprintAndCrouch.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/AdvancedAI.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/RaycastShooting.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/AudioZone.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/AISimple.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Audio/AudioZ.js",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Unity3DReference/Default.sublime-keymap",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/EnemyLogic.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/WeaponSwitching.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/Scripts/MeleeSystem.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/WeaponSwitchingTest.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/WeaponSwitching.js",
+		"/Users/yuto/UnityProject/Suvi/Assets/WeponsSwitch.cs",
+		"/Users/yuto/UnityProject/test/Assets/UMA/UMA_Content/FernandoRibeiro/Races/Werewolf/DNA/WerewolfMaleDNAConverterBehaviour.cs",
+		"/Users/yuto/UnityProject/test/Assets/Scripts/EnemyMoveScript.cs",
+		"/Users/yuto/test/Assets/Damaged_old_car/readme.txt",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/test.html",
+		"/Users/yuto/test/Assets/EnemyMoveScript.cs",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/yuto/test/Assets/Inventory/Scripts/Other/InvPauseGame.js",
+		"/Users/yuto/Desktop/WR_wHiteRabbiT-sTudio/WRFramework/Unity/UI/GUIHelper.cs",
+		"/Users/yuto/test/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js",
+		"/Users/yuto/test/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs",
+		"/Users/yuto/test/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js",
+		"/Users/yuto/test/Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js",
+		"/Users/yuto/test/Assets/ArrayScript.cs",
+		"/Users/yuto/Desktop/workspace/U3DAProject/.gitignore",
+		"/Users/yuto/UnityProject/Suvi/Assets/WR_wHiteRabbiT-sTudio/Scene/DancingRabbit/ReadMe.txt",
+		"/Users/yuto/Desktop/UnrealFes.txt",
+		"/Users/yuto/UnityProject/Suvi/Library/metadata/00/0000000000000000a000000000000000",
+		"/Users/yuto/Desktop/workspace/U3DAProject/Unity3DAction仕様書/Requirement/index.html",
+		"/Users/yuto/Desktop/workspace/Sound/sound/WaveDataGenerater.java",
+		"/Users/yuto/Desktop/workspace/untitled.py",
+		"/Users/yuto/Desktop/ImageProcessing/244163.txt",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/Requirement/index.html",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/index.html",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/DataConverter/DataConverter.sublime-settings",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/TestSpecification/JavaDoc/deprecated-list.html",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/TeamUnity3DActionGannttChart.gan",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/TestSpecification/JavaDoc/primeministers/Attributes.html",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/TestSpecification/JavaDoc/primeministers/Table.html",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/yuto/Desktop/workspace/TeamUnity3DAction/Unity3DAction仕様書/TestSpecification/JavaDoc/package-list",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Prefixr/prefixr.py",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/yuto/Library/Application Support/Sublime Text 3/Packages/User/AutoRunner.py",
+		"/Users/yuto/Desktop/244163ChatServer/ChatServer.java",
+		"/Users/yuto/Desktop/starterkit/SampleRobo.java",
+		"/Users/yuto/Desktop/g1244163_TWOBUFF.pml",
+		"/Users/yuto/Desktop/TWOBUFF.pml",
+		"/Users/yuto/Desktop/TwoBuff",
+		"/Users/yuto/Desktop/g1244163_TWOBUFF.pml.trail",
+		"/Users/yuto/PL/tiny/src.txt",
+		"/Users/yuto/PL/tiny/syns.yac",
+		"/Users/yuto/PL/tiny/rexp.lex",
+		"/Users/yuto/C/hoge/rehab/test.c",
+		"/Users/yuto/C/hoge/rehab/test4.c",
+		"/Users/yuto/Sites/webapp/form03.php",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/__init__.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Wasp.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Penguin.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Oni.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Dragon.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Bunny.py",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Baby.py",
+		"/Users/yuto/Desktop/DragonRefactoring_copy2/Bodies/jp/ac/kyoto_su/cse/drt/__init__.py",
+		"/Users/yuto/Desktop/DragonRefactoring_copy/Bodies/MANIFEST.in",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/Makefile",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/MANIFEST.in",
+		"/Users/yuto/Desktop/DragonRefactoring/Bodies/dist/Bodies-1.1.0/MANIFEST.in",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/README.txt",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Example.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Dragon.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Bunny.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/jp/ac/kyoto_su/cse/drt/Bodies/Baby.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/jp/__init__.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Bodies/Bodies.py",
+		"/Users/yuto/PL/python/Dragon_Problem/dragon.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Dragon_Problem/Bodies.py",
+		"/Users/yuto/Desktop/workspace/PMWorkSpace/PrimeMinisters/PrimeMinistersByPython/primeministers/example.py",
+		"/Users/yuto/Desktop/MANIFEST.in",
+		"/Users/yuto/Desktop/workspace/PMWorkSpace/PrimeMinisters/PrimeMinistersByPython/primeministers/__init__.py",
+		"/Users/yuto/Desktop/workspace/DragonTeam/DragonRefactoring/Dragon_Problem/Makefile",
+		"/Users/yuto/Desktop/workspace/PMWorkSpace/PrimeMinisters/PrimeMinistersByPython/MANIFEST.in"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+			"",
+			"~/Desktop/workspace/PMWorkSpace, *.java, *.py",
+			"~/Desktop/workspace/Sound, *.java",
+			"~/Desktop/tdas_1.0, *.java",
+			"",
+			"/Users/yuto/Desktop/project/workspace/PP/Lectures/zips/MVC/mvc",
+			"/Users/yuto/Desktop/project/workspace/PP/Lectures/zips/MALIMO",
+			"/Users/yuto/Desktop/project/workspace/PP/Lectures/zips",
+			"/Users/yuto/SE/MVC"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\n",
+			"map",
+			"generic",
+			"SRAM",
+			"OpenTerminalProjectFolderCommand",
+			"get_path",
+			"attack",
+			"Weapon",
+			"Recuraively",
+			"player",
+			"Player",
+			"player",
+			"固定",
+			"=",
+			";",
+			"=",
+			":",
+			"=",
+			"SUPER+CTRL+a",
+			"SUPER+CTRL+",
+			"SUPER+CTRL+A",
+			"TheSystem",
+			"TheBat",
+			"服装",
+			"sel",
+			"^(.*)$",
+			"re",
+			"^(.*)$",
+			"turnend",
+			"resolveMove",
+			"package",
+			"resolveMove",
+			"aUnit",
+			"u",
+			"action",
+			"run",
+			"main",
+			"/**",
+			"high",
+			"{",
+			"{ ",
+			"r",
+			"printf",
+			"i",
+			"gameoverWindow",
+			"title",
+			"time",
+			"hasRotated",
+			"pshema",
+			"psheme",
+			"default_window_title",
+			"connect(",
+			"print",
+			"Model",
+			"controlerew",
+			"Window",
+			" = [",
+			"self._",
+			"self.",
+			"display",
+			"DEBUG",
+			"map(",
+			"self._",
+			"self._model",
+			"self._view",
+			"self._model",
+			"if DEBUG:\n     ",
+			"if DEBUG",
+			"glunit",
+			"視覚",
+			"□",
+			"window_position",
+			"get_window_position",
+			"get_window_postion",
+			"if TRACE:\n            print",
+			"dragon",
+			"layer",
+			"canRotate",
+			"r",
+			"enemyPositionY",
+			"M_PI",
+			"allShotsAreInvisible",
+			"canMove",
+			"[index1]",
+			"enemy",
+			"enemyPosition",
+			"i",
+			"isEnemySho",
+			"isEnemyShot",
+			"enemyIndex",
+			"i",
+			"isEnemyShot",
+			"enemyShotScale",
+			"enemyShotPosition",
+			"enemyShotScaleX",
+			"i",
+			"isEncounter",
+			"isEnemyShot",
+			"enemyWaitCount",
+			"waitCount",
+			"isEnemyShot",
+			"isDestroy",
+			"isEncounter",
+			"isEnemyShot",
+			"rand",
+			"seed",
+			"r",
+			"seed",
+			"i",
+			"NUMBER_OF_SHOT",
+			"i",
+			"index",
+			"player",
+			"Y",
+			"X",
+			"player",
+			"i",
+			"[i]",
+			"index",
+			"i",
+			"nY ",
+			"nX ",
+			"shotPositionScaleY ",
+			"shotPositionScaleX",
+			"player",
+			"PositionScale",
+			"enemyPosition",
+			"Scale"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../index",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/U3DA.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 97.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Unity3D Build System/Unity.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/UnityProject/Suvi/Assets/WeaponSwitching.js"
+			],
+			[
+				"soundwave",
+				"Sound/sound/SoundWaveForm.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 418.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
